@@ -36,15 +36,17 @@ Como ventajas se podría destacar que es sencillo de usar, tiene un aspecto atra
 Para esto se debe crear una cuenta de usuario y acceder seleccionando la opción “Circuits” para empezar a crear circuitos 
 
 **Multiplexores**
+
 Son circuitos combinacionales que tienen varias entradas, una sola salida y varias líneas de selección. Su funcionamiento podría asemejarse a un conmutador de varias posiciones que simularían las entradas y el terminal común, la salida; la conmutación se realizaría por medio de la línea de selección, de tal modo que las señales presentes en las entradas aparecerán en la salida en el orden indicado por la línea de selección; es decir, un multiplexor permite el envío por una sola línea de los datos presentes en varias líneas.
 
 Se pueden hallar multiplexores de 2 a 1 líneas, de 4 a 1, de 8 a 1,etc.
 
-MULTIPLEXOR de 2 a 1 líneas: circuito integrado TTL 74157, contiene cuatro multiplexores con sus dos entradas de datos y su salida cada uno. Tiene una entrada de inhibición (STROBE G) activa a nivel bajo (0V) y una entrada de selección (SELECT), comunes a los cuatro multiplexores.
+Multiplexor de 2 a 1 líneas: circuito integrado TTL 74157, contiene cuatro multiplexores con sus dos entradas de datos y su salida cada uno. Tiene una entrada de inhibición (STROBE G) activa a nivel bajo (0V) y una entrada de selección (SELECT), comunes a los cuatro multiplexores.
 
 Cuando STROBE está a nivel bajo, si la entrada SELECT está a nivel bajo, en la salida aparece el valor del dato A; y si la SELECT está a nivel alto aparece el dato B.
 
 Los tres componentes más importantes de un multiplexorson:
+
 1. Líneas de entrada de datos (al menos 2): estaslíneas contienen la información digital o señalesque se puede transmitir a la línea de salida.
 
 2. Entrada de selección de datos: esta entradaselecciona una única línea de entrada de datospara ser transmitida, dejando sin efecto las otraslíneas de entrada de datos.
@@ -54,5 +56,6 @@ Los tres componentes más importantes de un multiplexorson:
 Las líneas de entrada de datos se determinan por 2 elevadoa a la (n) donde n es el número de entradas de selección de datos, es decir para dos entradas de selección de datosse puede tener = 4 líneas de entrada de datos.
 
 **CI 74LS157** 
+
 Contiene cuatro multiplexores con dos entradas de datos cada uno.La entrada de selección de datos es la misma para todoslos multiplexores que conforman este integrado, donde las 4 primeras entradas se activan a nivel bajo (0) y las 4 restantes se activan a nivel alto (1).La activación de los multiplexores en general se da mediante un terminal denominado “ENABLE” el cual debe encontrarse activo a nivel bajo (0).
 
