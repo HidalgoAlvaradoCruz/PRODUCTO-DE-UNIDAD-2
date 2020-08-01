@@ -59,3 +59,20 @@ Las líneas de entrada de datos se determinan por 2 elevadoa a la (n) donde n es
 
 Contiene cuatro multiplexores con dos entradas de datos cada uno.La entrada de selección de datos es la misma para todoslos multiplexores que conforman este integrado, donde las 4 primeras entradas se activan a nivel bajo (0) y las 4 restantes se activan a nivel alto (1).La activación de los multiplexores en general se da mediante un terminal denominado “ENABLE” el cual debe encontrarse activo a nivel bajo (0).
 
+**CI 74LS83**
+
+Es un sumador binario de 4-Bit donde las sumas (Σ) se proporcionan para cada bit y el acarreo resultante (C4) se obtiene a partir del cuarto bit. Estos agregadores cuentan con una mirada interna completa a través de los cuatro Bits  Cuenta con una implementación de ripple-carry. La lógica del sumador, incluido el carry, se implementa en su forma verdadera, lo que significa que el logrado sin necesidad de inversión lógica o de nivel.
+
+Acarreo a lo largo de los cuatro bits
+
+-Los sistemas logran un rendimiento de anticipación parcial con la economía de la ondulación de llevar
+
+-Tiempos de adición típicos
+
+-Dos palabras de 8 bits 25 ns
+
+-Dos palabras de 16 bits 45 ns
+
+-Disipación de potencia típica por sumador de 4 bits 95
+
+
