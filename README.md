@@ -67,10 +67,7 @@ es un programa o software gratuito y online creado para el desarrollo y modelado
 Como ventajas se podría destacar que es sencillo de usar, tiene un aspecto atractivo y con unas pocas horas de uso se puede adquirir mucha destreza. Por otro lado, como desventaja se puede señalar que es necesario tener una cuenta de correo para darse de alta como usuario y que sólo posee una versión online. 
 Para esto se debe crear una cuenta de usuario y acceder seleccionando la opción “Circuits” para empezar a crear circuitos 
 
-
-
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img1.png)
-
 
 **Multiplexores**
 
@@ -92,13 +89,19 @@ Los tres componentes más importantes de un multiplexorson:
 
 Las líneas de entrada de datos se determinan por 2 elevadoa a la (n) donde n es el número de entradas de selección de datos, es decir para dos entradas de selección de datosse puede tener = 4 líneas de entrada de datos.
 
-**CI 74LS157** 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img2.jpg)
+
+**MULTIPLEXOR CI 74LS157** 
 
 Contiene cuatro multiplexores con dos entradas de datos cada uno.La entrada de selección de datos es la misma para todoslos multiplexores que conforman este integrado, donde las 4 primeras entradas se activan a nivel bajo (0) y las 4 restantes se activan a nivel alto (1).La activación de los multiplexores en general se da mediante un terminal denominado “ENABLE” el cual debe encontrarse activo a nivel bajo (0).
 
-**CI 74LS83**
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img3.png)
+
+**SUMADOR CI 74LS83**
 
 Es un sumador binario de 4-Bit donde las sumas (Σ) se proporcionan para cada bit y el acarreo resultante (C4) se obtiene a partir del cuarto bit. Estos agregadores cuentan con una mirada interna completa a través de los cuatro Bits  Cuenta con una implementación de ripple-carry. La lógica del sumador, incluido el carry, se implementa en su forma verdadera, lo que significa que el logrado sin necesidad de inversión lógica o de nivel.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img5.jpg)
 
 Acarreo a lo largo de los cuatro bits
 
@@ -112,7 +115,43 @@ Acarreo a lo largo de los cuatro bits
 
 -Disipación de potencia típica por sumador de 4 bits 95
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img4.jpg)
 
+**COMPARADOR CI 74LS85**
+
+Son circuitos integrados combinacionales con uno o más pares de entradas que tienen como función comparar dos magnitudes binarias para determinar su relación.
+
+El comparador más básico, que determina si dos números son iguales, se consigue mediante una puerta XOR (or exclusiva), ya que su salida es 1 si los dos bits de entrada son diferentes y 0 si son iguales.
+
+Muchos comparadores poseen además de la salida de igualdad, dos salidas más que indican cual de los números colocados a la entrada es mayor (M) que el otro, o bien es menor (m) que el otro.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img6.png)
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img7.jpg)
+
+**DECODIFICADOR CI 74HC4511**
+
+Son circuitos combinacionales integrados que disponen de n entradas y un número de salidas igual o menor a 2n, actúan de modo que según cual sea la combinación de las variables de entrada se activa una única salida, permaneciendo el resto de ellas desactivada.
+
+Suelen disponer de una entrada adicional denominada de inhibición o strobe de modo que cuando esta entrada se encuentra activada, pone todas las salidas a 0.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img8.jpg)
+
+
+
+Compuerta XOR – Compuerta O Exclusiva
+En la electrónica digital hay compuertas que no son comunes. Una de ellas es la compuerta XOR ó compuerta O exclusiva ó compuerta O excluyente. El diagrama inferior muestra el símbolo de una compuerta XOR (O exclusiva) de 2 entradas.
+Comprender el funcionamiento de esta compuerta digital es muy importante para después poder implementar lo que se llama un comparador digital.
+
+Tabla de verdad de una compuerta XOR de 2 entradas. Esta compuerta se representa con la siguiente función booleana: X = A.B + A.B . A diferencia de la compuerta OR, la compuerta XOR tiene una salida igual a “0” cuando sus entradas son iguales a 1.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img9.gif)
+
+Si se comparan las tablas de verdad de la compuerta OR y la compuerta XOR se observa que la compuerta XOR tendrá un uno (“1”) en su salida cuando la suma de los unos “1” en las entradas sea igual a un número impar.
+
+La ecuación se puede escribir de dos maneras: X = A.B + A.B  ó   . La siguiente imagen muestra la tabla de verdad de una compuerta XOR de 2 entradas.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img10.gif)
 
 **5. DIAGRAMAS**
 
