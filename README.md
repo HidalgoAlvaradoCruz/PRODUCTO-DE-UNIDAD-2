@@ -171,12 +171,24 @@ Acarreo a lo largo de los cuatro bits
 
 <br>
 
+•	El circuito final está compuesto por cuatro etapas: ingreso de datos, que se lo resolvió por tablas de verdad para la comprobación BCD; transformación de BCD a binario, resueltas por tablas de verdad de igual manera por casos; la suma-resta en binario natural por comple.
+
+•	Este circuito está orientado a la suma y la resta dos números ingresados en BCD, por medio de un switch de dos estados en donde se podrá escoger que operación se va a realizar, el 1 indica la resta y el 0 la suma.
+
 
 <br>
 
 **12. RECOMENDACIONES**
 
 <br>
+
+•	Se recomienda utilizar sumadores 74LS283 para circuitos de esta magnitud, esto debido a que, con el circuito integrado 74LS83 se tiene un FAN OUT de 10 (número máximo de compuertas de salida permitidas conectadas a este circuito integrado), si se excede este valor las entradas de los circuitos integrados conectados a este sumador recibirán niveles lógicos distintos a los requeridos.
+
+•	En el proceso de construcción físico del circuito en un protoboard se recomienda que, a medida que se realiza una conexión, se vaya comprobando los niveles de activación con un diodo emisor de luz o multímetro conjuntamente con la simulación, esto facilitará la detección y solución de posibles errores de montaje.
+
+•	Antes de conectar la alimentación del circuito, comprobar que los integrados tienen correctamente conectados los terminales de alimentación y que el circuito se encuentra correctamente montado.
+
+
 
 <br>
 
