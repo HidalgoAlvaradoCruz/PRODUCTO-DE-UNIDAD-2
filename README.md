@@ -115,6 +115,7 @@ Acarreo a lo largo de los cuatro bits
 **5. DIAGRAMAS**
 
 <br>
+
 **A. DIAGRAMA ELÉCTRICO**
 
 <br>
