@@ -109,9 +109,82 @@ Acarreo a lo largo de los cuatro bits
 
 <br>
 
+
 <br>
 
-**BIBLIOGRAFÍA**
+**5. DIAGRAMAS**
+
+<br>
+**A. DIAGRAMA ELÉCTRICO**
+
+<br>
+
+
+
+<br>
+
+**B. DIAGRAMA DE BLOQUES**
+
+<br>
+
+
+
+
+<br>
+
+**6. DESARROLLO Y SIMLACIÓN**
+
+<br>
+
+<br>
+
+**7. MAPA DE VARIABLES **
+
+<br>
+
+
+<br>
+
+**8.EXPLICACIÓN DEL CÓDIGO FUENTE**
+
+<br>
+
+<br>
+
+**9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
+
+<br>
+
+
+
+
+<br>
+
+**10. APORTACIONES**
+
+<br>
+
+
+
+**11. CONCLUSIONES**
+
+<br>
+
+
+<br>
+
+**12. RECOMENDACIONES**
+
+<br>
+
+<br>
+
+**13. CRONOGRAMA**
+
+<br>
+
+
+**14. BIBLIOGRAFÍA**
 
 <br>
 
@@ -125,5 +198,35 @@ Acarreo a lo largo de los cuatro bits
 
 
 [4] Cortes-Barron, EA, Reyes-Barranca, MA, Flores-Nava, LM y Medina-Santiago, A. (2012). Unidad de lógica aritmética (ALU) de 4 bits basada en transistores Neuron MOS. 2012 Novena Conferencia Internacional sobre Ingeniería Eléctrica, Ciencias de la Computación y Control Automático (CCE). doi: 10.1109 / iceee.2012.6421136 
+
+<br>
+
+**15. ANEXOS**
+
+<br>
+
+
+
+<br>
+
+**15.1. MANUAL DE USUARIO ENFOCADO EN EL E UNUNCIADO DOS**
+
+<br>
+
+
+
+**15.2. HOJAS TÉCNICAS**
+
+<br>
+
+<br>
+
+
+
+
+
+
+
+
 
 
