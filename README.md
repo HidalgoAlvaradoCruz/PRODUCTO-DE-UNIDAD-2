@@ -170,11 +170,14 @@ Acarreo a lo largo de los cuatro bits
 **11. CONCLUSIONES**
 
 <br>
+En conclusión:
 
-•	El circuito final está compuesto por cuatro etapas: ingreso de datos, que se lo re
+• Para implementar el circuito SUMADOR /RESTADOR DE 8 bits  inicialmente se utiliza sumadores 	7483 de 4 bits en cascada para lograr una interacción de 8 bits por número, como resultado a la salida se genera un numero de 9 bits siendo el noveno bit el de acarreo, mediante este proceso se pudo concluir que en el caso de la suma el bit de acarreo representa el bit más significativo del resultado para aquellos números decimales que sobrepasen los 8 bits en su representación binaria, mientras que en la resta el bit de acarreo representa el SIGNO en el caso que el resultado sea un numero negativo.
 
-•	Este circuito está orientado a la suma y la resta dos números ingresados en BCD, por medio de un switch de dos estados en donde se podrá escoger que operación se va a realizar, el 1 indica la resta y el 0 la suma.
+•	
 
+
+•
 
 <br>
 
