@@ -138,7 +138,7 @@ Acarreo a lo largo de los cuatro bits
 
 <br>
 
-**7. MAPA DE VARIABLES **
+**7. MAPA DE VARIABLES**
 
 <br>
 
