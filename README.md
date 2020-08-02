@@ -210,7 +210,7 @@ Acarreo a lo largo de los cuatro bits
 
 <br>
 
-**15.1. MANUAL DE USUARIO ENFOCADO EN EL E UNUNCIADO DOS**
+**15.1. MANUAL DE USUARIO ENFOCADO EN EL ENUNCIADO DOS**
 
 <br>
 
