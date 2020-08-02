@@ -144,24 +144,18 @@ Suelen disponer de una entrada adicional denominada de inhibición o strobe de m
 En la electrónica digital hay compuertas que no son comunes. Una de ellas es la compuerta XOR ó compuerta O exclusiva ó compuerta O excluyente. El diagrama inferior muestra el símbolo de una compuerta XOR (O exclusiva) de 2 entradas.
 Comprender el funcionamiento de esta compuerta digital es muy importante para después poder implementar lo que se llama un comparador digital.
 
-Tabla de verdad de una compuerta XOR de 2 entradas. Esta compuerta se representa con la siguiente función booleana: X = A.B + A.B . A diferencia de la compuerta OR, la compuerta XOR tiene una salida igual a “0” cuando sus entradas son iguales a 1.
+La puerta lógica OR-exclusiva, más conocida por su nombre en inglés XOR, realiza la función booleana A'B+AB'. Su símbolo es el más (+) inscrito en un círculo. En la figura de la derecha pueden observarse sus símbolos en electrónica.
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img9.gif)
 
-Si se comparan las tablas de verdad de la compuerta OR y la compuerta XOR se observa que la compuerta XOR tendrá un uno (“1”) en su salida cuando la suma de los unos “1” en las entradas sea igual a un número impar.
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img15.png)
 
-La ecuación se puede escribir de dos maneras: X = A.B + A.B  ó   . La siguiente imagen muestra la tabla de verdad de una compuerta XOR de 2 entradas.
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img10.gif)
-
-4HC86 
+**4HC86** 
 
 
 4 compuertas XOR  74HC86 de dos entradas. CMOS
 
 Una puerta lógica, o compuerta lógica, es un dispositivo electrónico con una función booleana. Suman, multiplican, niegan o afirman, incluyen o excluyen según sus propiedades lógicas. Se pueden aplicar a tecnología electrónica, eléctrica, mecánica, hidráulica y neumática. Son circuitos de conmutación integrados en un chip.
-
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img11.jpg)
 
 Características:
 
@@ -188,7 +182,26 @@ La puerta lógica NO-Y, más conocida por su nombre en inglés NAND, realiza la 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img12.png)
 
 El circuito integrado que contiene la compuerta NAND, es el 74LS00, el cual posee internamente 4 compuertas NAND, como se muestra en la figura, hay que tener en cuenta que el pin 7 debe estar conectado a Tierra (GND) y el pin 14 a Positivo (Vcc),
+
+**Compuerta AND CI 74HC00**
+
+La puerta lógica Y, más conocida por su nombre en inglés AND (AND \equiv Y \equiv \and  ), realiza la función booleana de producto lógico. Su símbolo es un punto (·), aunque se suele omitir. Así, el producto lógico de las variables A y B se indica como AB, y se lee A y B o simplemente A por B.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img13.png)
+
+
+El circuito integrado que contiene la compuerta AND, es el 74LS08, el cual posee internamente 4 compuertas AND, como se muestra en la figura, hay que tener en cuenta que el pin 7 debe estar conectado a Tierra (GND) y el pin 14 a Positivo (Vcc).
+
  
+**Compuerta OR CI 74HC32**
+
+La puerta lógica O, más conocida por su nombre en inglés OR (OR \equiv O \equiv \or ), realiza la operación de suma lógica.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img14.png)
+
+El circuito integrado que contiene la compuerta OR, es el 74LS32, el cual posee internamente 4 compuertas OR, como se muestra en la figura, hay que tener en cuenta que el pin 7 debe estar conectado a Tierra (GND) y el pin 14 a Positivo (Vcc),
+
+
 **5. DIAGRAMAS**
 
 <br>
