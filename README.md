@@ -172,12 +172,14 @@ Acarreo a lo largo de los cuatro bits
 <br>
 En conclusión:
 
-• Para implementar el circuito SUMADOR /RESTADOR DE 8 bits  inicialmente se utiliza sumadores 	7483 de 4 bits en cascada para lograr una interacción de 8 bits por número, como resultado a la salida se genera un numero de 9 bits siendo el noveno bit el de acarreo, mediante este proceso se pudo concluir que en el caso de la suma el bit de acarreo representa el bit más significativo del resultado para aquellos números decimales que sobrepasen los 8 bits en su representación binaria, mientras que en la resta el bit de acarreo representa el SIGNO en el caso que el resultado sea un numero negativo.
+<br>
 
-•	
+• Para implementar el circuito SUMADOR /RESTADOR DE 8 bits  inicialmente se utiliza sumadores 	7483 de 4 bits en cascada para lograr una interacción de 8 bits por número, como resultado a la salida se genera un numero de 9 bits siendo el noveno bit el de acarreo, mediante este proceso se pudo concluir que en el caso de la suma el bit de acarreo representa el bit más significativo del resultado para aquellos números decimales que sobrepasen los 8 bits en su representación binaria, mientras que en la resta el bit de acarreo representa el SIGNO en el caso que el resultado sea un número negativo.
+
+•	A partir del circuito SUMADOR se implementa el RESTADOR teóricamente se puede aplicar el complemento 1 o complemento 2 para efectuar la resta, en la práctica esto no ocurre así, a pesar que el método más fácil para hallar la resta es aplicar el complemento 1, surge la necesidad de utilizar integrados comparadores para identificar cada caso de la resta y seleccionar el resultado adecuado.
 
 
-•
+• Para implementar el sistema que permita elegir entre una opración u otra se debe multiplexar las salidas pero en vista que el simulador Tinkercad no cuenta con integrados multiplexores, este proceso se lo debe realizar diseñando un circuito que cumpla con esta función a partir de colocar puertas AND y XOR, pero el detalle más importante de dicho proceso está en que todo este sistema tiene que ir conectado a un dip st
 
 <br>
 
