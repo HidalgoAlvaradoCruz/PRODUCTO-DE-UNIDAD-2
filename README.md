@@ -107,4 +107,23 @@ Acarreo a lo largo de los cuatro bits
 
 -Disipación de potencia típica por sumador de 4 bits 95
 
+<br>
+
+<br>
+
+**BIBLIOGRAFÍA**
+
+<br>
+
+[1] Rai, PK, Srivastava, S. y Johri, A. (2018). Diseño, diseño y simulación de un marco de almohadilla de circuitos lógicos y aritméticos de 8 bits utilizando el proceso C5 para CMOS submicrónicos profundos. Conferencia Internacional de Computación y Telecomunicaciones Avanzadas de 2018 (ICACAT). doi: 10.1109 / icacat.2018.8933609 
+
+
+[2] Syamala, Y. y Tilak, AVN (2011). Unidad de lógica aritmética reversible. 2011 III Congreso Internacional de Tecnología Informática Electrónica. doi: 10.1109 / icectech.2011.5941987 
+
+
+[3] Ahmed, MA, y Abdelghany, MA (2018). Unidad lógica aritmética de 4 bits de baja potencia que utiliza la técnica GDI de giro completo. Conferencia internacional 2018 sobre tendencias innovadoras en ingeniería informática (ITCE). doi: 10.1109 / itce.2018.8316623 
+
+
+[4] Cortes-Barron, EA, Reyes-Barranca, MA, Flores-Nava, LM y Medina-Santiago, A. (2012). Unidad de lógica aritmética (ALU) de 4 bits basada en transistores Neuron MOS. 2012 Novena Conferencia Internacional sobre Ingeniería Eléctrica, Ciencias de la Computación y Control Automático (CCE). doi: 10.1109 / iceee.2012.6421136 
+
 
