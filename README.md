@@ -63,7 +63,7 @@ Para el producto de unidad presente, se utilizó el entorno de simulación Tinke
 
 **ThinkerCad** 
 
-es un programa o software gratuito y online creado para el desarrollo y modelado de objetos en 3D de una manera sencilla, ofrece también una posibilidad realmente interesante de montar, programar y simular circuitos incluso con Arduino al disponer de una interfaz de trabajo simple y atractiva. TinkerCAD ha sido creado por la empresa AutoDesk. 
+Es un programa o software gratuito y online creado para el desarrollo y modelado de objetos en 3D de una manera sencilla, ofrece también una posibilidad realmente interesante de montar, programar y simular circuitos incluso con Arduino al disponer de una interfaz de trabajo simple y atractiva. TinkerCAD ha sido creado por la empresa AutoDesk. 
 Como ventajas se podría destacar que es sencillo de usar, tiene un aspecto atractivo y con unas pocas horas de uso se puede adquirir mucha destreza. Por otro lado, como desventaja se puede señalar que es necesario tener una cuenta de correo para darse de alta como usuario y que sólo posee una versión online. 
 Para esto se debe crear una cuenta de usuario y acceder seleccionando la opción “Circuits” para empezar a crear circuitos 
 
@@ -139,7 +139,7 @@ Suelen disponer de una entrada adicional denominada de inhibición o strobe de m
 
 
 
-**Compuerta XOR – Compuerta O Exclusiva CI 74HC86**
+**COMPUERTA XOR – Compuerta O Exclusiva CI 74HC86**
 
 En la electrónica digital hay compuertas que no son comunes. Una de ellas es la compuerta XOR ó compuerta O exclusiva ó compuerta O excluyente. El diagrama inferior muestra el símbolo de una compuerta XOR (O exclusiva) de 2 entradas.
 Comprender el funcionamiento de esta compuerta digital es muy importante para después poder implementar lo que se llama un comparador digital.
@@ -176,7 +176,7 @@ Voltaje de alimentación: 2V a 6V
 
 Encapsulado: DIP 14 pines
 
-**Compuerta NAND CI 74HC00**
+**COMPUERTA NAND CI 74HC00**
 
 La puerta lógica NO-Y, más conocida por su nombre en inglés NAND, realiza la operación de producto lógico negado.
 
@@ -184,7 +184,7 @@ La puerta lógica NO-Y, más conocida por su nombre en inglés NAND, realiza la 
 
 El circuito integrado que contiene la compuerta NAND, es el 74LS00, el cual posee internamente 4 compuertas NAND, como se muestra en la figura, hay que tener en cuenta que el pin 7 debe estar conectado a Tierra (GND) y el pin 14 a Positivo (Vcc),
 
-**Compuerta AND CI 74HC00**
+**COMPUERTA AND CI 74HC00**
 
 La puerta lógica Y, más conocida por su nombre en inglés AND (AND \equiv Y \equiv \and  ), realiza la función booleana de producto lógico. Su símbolo es un punto (·), aunque se suele omitir. Así, el producto lógico de las variables A y B se indica como AB, y se lee A y B o simplemente A por B.
 
@@ -194,7 +194,7 @@ La puerta lógica Y, más conocida por su nombre en inglés AND (AND \equiv Y \e
 El circuito integrado que contiene la compuerta AND, es el 74LS08, el cual posee internamente 4 compuertas AND, como se muestra en la figura, hay que tener en cuenta que el pin 7 debe estar conectado a Tierra (GND) y el pin 14 a Positivo (Vcc).
 
  
-**Compuerta OR CI 74HC32**
+**COMPUERTA OR CI 74HC32**
 
 La puerta lógica O, más conocida por su nombre en inglés OR (OR \equiv O \equiv \or ), realiza la operación de suma lógica.
 
