@@ -107,10 +107,7 @@ Acarreo a lo largo de los cuatro bits
 
 -Disipación de potencia típica por sumador de 4 bits 95
 
-<br>
 
-
-<br>
 
 **5. DIAGRAMAS**
 
