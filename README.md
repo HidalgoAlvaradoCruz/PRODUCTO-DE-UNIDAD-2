@@ -139,7 +139,8 @@ Suelen disponer de una entrada adicional denominada de inhibición o strobe de m
 
 
 
-Compuerta XOR – Compuerta O Exclusiva
+**Compuerta XOR – Compuerta O Exclusiva CI 74HC86**
+
 En la electrónica digital hay compuertas que no son comunes. Una de ellas es la compuerta XOR ó compuerta O exclusiva ó compuerta O excluyente. El diagrama inferior muestra el símbolo de una compuerta XOR (O exclusiva) de 2 entradas.
 Comprender el funcionamiento de esta compuerta digital es muy importante para después poder implementar lo que se llama un comparador digital.
 
@@ -153,6 +154,41 @@ La ecuación se puede escribir de dos maneras: X = A.B + A.B  ó   . La siguient
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img10.gif)
 
+4HC86 
+
+
+4 compuertas XOR  74HC86 de dos entradas. CMOS
+
+Una puerta lógica, o compuerta lógica, es un dispositivo electrónico con una función booleana. Suman, multiplican, niegan o afirman, incluyen o excluyen según sus propiedades lógicas. Se pueden aplicar a tecnología electrónica, eléctrica, mecánica, hidráulica y neumática. Son circuitos de conmutación integrados en un chip.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img11.jpg)
+
+Características:
+
+4 compuertas XOR de dos entradas c/u
+
+Tecnología: High Speed CMOS (HC)
+
+Funcionamiento lógico y organización de pines compatible con la familia LS-TTL
+
+Alta inmunidad al ruido
+
+Muy bajo consumo de potencia, similar a los C.I. CMOS estándar
+
+Alta velocidad
+
+Voltaje de alimentación: 2V a 6V
+
+Encapsulado: DIP 14 pines
+
+**Compuerta NAND CI 74HC00**
+
+La puerta lógica NO-Y, más conocida por su nombre en inglés NAND, realiza la operación de producto lógico negado.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img12.png)
+
+El circuito integrado que contiene la compuerta NAND, es el 74LS00, el cual posee internamente 4 compuertas NAND, como se muestra en la figura, hay que tener en cuenta que el pin 7 debe estar conectado a Tierra (GND) y el pin 14 a Positivo (Vcc),
+ 
 **5. DIAGRAMAS**
 
 <br>
