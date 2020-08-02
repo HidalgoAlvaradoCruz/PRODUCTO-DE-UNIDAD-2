@@ -171,7 +171,7 @@ Acarreo a lo largo de los cuatro bits
 
 <br>
 
-•	El circuito final está compuesto por cuatro etapas: ingreso de datos, que se lo resolvió por tablas de verdad para la comprobación BCD; transformación de BCD a binario, resueltas por tablas de verdad de igual manera por casos; la suma-resta en binario natural por comple.
+•	El circuito final está compuesto por cuatro etapas: ingreso de datos, que se lo re
 
 •	Este circuito está orientado a la suma y la resta dos números ingresados en BCD, por medio de un switch de dos estados en donde se podrá escoger que operación se va a realizar, el 1 indica la resta y el 0 la suma.
 
