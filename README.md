@@ -149,6 +149,7 @@ La puerta lógica OR-exclusiva, más conocida por su nombre en inglés XOR, real
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img15.png)
 
+El circuito integrado que contiene la compuerta XOR, es el 74LS86, el cual posee internamente 4 compuertas XOR, como se muestra en la figura, hay que tener en cuenta que el pin 7 debe estar conectado a Tierra (GND) y el pin 14 a Positivo (Vcc),
 
 **4HC86** 
 
