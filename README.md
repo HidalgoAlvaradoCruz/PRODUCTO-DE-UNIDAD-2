@@ -258,6 +258,18 @@ Una vez hecha la decodificación las salidas de cada integrado 4511 son direccio
 
 <br>
 
+**EXPLICACIÓN:**
+
+El diagrama muestra una esquematización del circuito, se encuentra divido por etapas de operción o procesos que a su vez cuentan con subprocesos, cada proceso se rige a la función de un elemento en específico.
+
+- CIRCUITO SUMADOR------------ INTEGRADO 7483
+- CIRCUITO RESTADOR----------- COMPLEMENTO 1, SUMADOR 7483, COMPARADOR 7485 (casos de la resta)
+- SELECTOR DE OPERACIÓN-------- MULTIPLEXOR DE 2 A 1
+- DECODIFICADOR---------------- INTEGRADO 4511
+- DISPLAY---------------------- DISPLAY DE 7 SEGMENTOS DE CÁTODO COMÚN 
+
+<br>
+
 **6. MAPA DE VARIABLES**
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img16.png)
