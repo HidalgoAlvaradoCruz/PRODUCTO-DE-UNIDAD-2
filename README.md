@@ -217,6 +217,10 @@ El circuito integrado que contiene la compuerta OR, es el 74LS32, el cual posee 
 
 **7.EXPLICACIÓN DEL CIRCUITO**
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img31.jpeg)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img32.jpeg)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img33.jpeg)
+
 **Ingreso de números en BCD**
 
 Para el ingreso de números en BCD se tiene 2 dip switch de 8 interruptores cada uno, en la parte superior, el primer dip switch representa el número A y el segundo dip switch el número denotado por B.
@@ -356,6 +360,7 @@ Implementación de 6 display de 7 segmentos cátodo común y focos led que vizua
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img41.png)
 
+**11. CONCLUSIONES**
 
 En conclusión:
 
