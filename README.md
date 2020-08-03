@@ -278,9 +278,36 @@ La entrada de inhibición (STROBE G o A'/B) activa a nivel bajo (0V) es decir la
 
 El tercer integrado indica tanto el signo de la resta o el acarreo de la suma por lo que está conectado al acarreo de la salida del segundo sumador (sin negar) y a la salida del comparador que indica el signo de la resta en el caso A<B junto con la salida del switch que indica la operación a realizarse ya sea la suma o la resta.
 
-
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img26.png)
 
+**Sincronización de los de los números a sumar o restar y la respuesta**
+
+Las compuertas and y or  juntas funcionan como un generador de pulsos, a manera de un reloj tanto para los sumadores como para los decodificadores 4511 determinando tanto la velocidad con la que se actualizaran los datos en el display y el instante en la que se hará esa actulización.
+
+La compuerta OR juega en el circuito un papel muy importante ya que en el proceso del conteo los pines de los bits menos significativos pueden activarse y desactivarse varias veces y lo que se necesita en este circuito es solo la última activación es decir los últimos tres bits más significativos.
+
+Cuando la salida de la operación realizada por los multiplexores sea mayor que cero se estará ejecutando los display de manera estable pero cuando sea cero o esté en estado bajo es necesario una compuerta AND para  detener la generación de mas pulsos de lo necesario en este caso solo para 8 bits.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img28.png)
+
+Entonces partiendo de estas características generales del circuito  se empieza con la sincronización del circuito para poder proyectar los números en los display partiendo de las 3 señales principales a utilizarse similares en su función a un diagrama de tiempo.Simplemente haciendo las comparaciones restantes con los bits restantes es decir (solo 7 bits )sin llegar al bit menos significativo que será conectado directamente al decodificador.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img29.png)
+
+Todo esto conectando en cascada tanto compuertas AND, OR, SUMADORES y DECODDIFICADORES.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img30.png)
+
+Es importante notar que a partir del primer sumador implimentado para esta sincronización si se necesita un nuevo dígito simplemente se aumenta más sumadores, los cuáles tendrán las mismas conexiones que el primero al igual que en los decodificadores.
+
+
+**Visualización en los diplay de 7 segmentos de los números a sumar o restar y la respuesta**
+
+Para finalizar se conecta directamente las salidas de los decodificadores 4511 a cada uno de los display cátodo común.
+
+El display que indica el signo en la resta  y el acarreo en la suma  todas sus entradas vana conectadas a la salida del tercer multiplexor que justamente nos indica lo dicho anteriormente.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img27.png)
 
 **8. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
 
@@ -315,7 +342,7 @@ El circuito creado en Tinkercad puede funcionar en cualquier servidor si se le d
 
 <br>
 
-**9. APORTACIONES**
+**10. APORTACIONES**
 
 <br>
 
@@ -323,7 +350,7 @@ El circuito creado en Tinkercad puede funcionar en cualquier servidor si se le d
 
 <br>
 
-**10. CONCLUSIONES**
+**11. CONCLUSIONES**
 
 <br>
 En conclusión:
@@ -342,7 +369,7 @@ En conclusión:
 
 <br>
 
-**11. RECOMENDACIONES**
+**12. RECOMENDACIONES**
 
 <br>
 
@@ -355,15 +382,12 @@ En conclusión:
 
 <br>
 
-**12. CRONOGRAMA**
-
-<br> 
-
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/cg.jpeg)
+**13. CRONOGRAMA**
 
 <br>
 
-**13. BIBLIOGRAFÍA**
+
+**14. BIBLIOGRAFÍA**
 
 <br>
 
@@ -380,17 +404,21 @@ En conclusión:
 
 <br>
 
-**14. ANEXOS**
-
-<br>
-
-**14.1. MANUAL DE USUARIO**
+**15. ANEXOS**
 
 <br>
 
 
 
-**14.2. HOJAS TÉCNICAS**
+<br>
+
+**15.1. MANUAL DE USUARIO**
+
+<br>
+
+
+
+**15.2. HOJAS TÉCNICAS**
 
 <br>
 
