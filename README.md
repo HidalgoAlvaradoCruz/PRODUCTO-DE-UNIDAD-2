@@ -156,8 +156,32 @@ Acarreo a lo largo de los cuatro bits
 
 <br>
 
+Para utilizar el entorno de simulación Tinkercad es necesario tener una cuenta de Google o una cuenta institucional en este caso la cuenta de Mi ESPE, para la realizar la verificación y creación de la cuenta en Tinkercad.
 
+Es esencial tener una conexión estable a internet, debido a que la creación y simulación del circuito solo lo realiza en línea. 
+Los sistemas operativos de los computadores en los cuales funciona Tinkercad son: 
 
+•	Macintosh (con procesador Intel): Mac OS X 10.5, 10.6
+
+•	Windows: Windows XP, Windows Vista, Windows 7 y versiones superiores
+
+•	GNU / Linux: Ubuntu 8 +, 5 + Debian
+
+<br>
+
+Tener un computador con todas las actualizaciones necesarias, como también nuestro navegador deberá tener las siguientes especificaciones: 
+
+•	Mozilla Firefox 3.6 o superior
+
+•	Apple Safari 5.0 o superior
+
+•	Google Chrome 4.0 o superior
+
+•	Microsoft Internet Explorer 7 o superior
+
+<br>
+
+El circuito creado en Tinkercad puede funcionar en cualquier servidor si se le da el atributo de público y se comparte el enlace que se genera, dicho enlace será la única forma en la que se pueda acceder y editar el diseño del circuito.
 
 <br>
 
@@ -166,6 +190,8 @@ Acarreo a lo largo de los cuatro bits
 <br>
 
 
+
+<br>
 
 **11. CONCLUSIONES**
 
