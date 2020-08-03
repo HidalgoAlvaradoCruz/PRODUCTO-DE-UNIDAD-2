@@ -359,7 +359,7 @@ En conclusión:
 
 <br> 
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img26.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/cg.jpeg)
 
 <br>
 
