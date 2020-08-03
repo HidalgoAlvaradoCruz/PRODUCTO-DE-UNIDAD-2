@@ -370,6 +370,8 @@ El display que indica el signo en la resta  y el acarreo en la suma  todas sus e
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img27.png)
 
+<br>
+
 **8. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
 
 <br>
@@ -477,6 +479,10 @@ En conclusión:
 <br>
 
 
+
+
+
+<br>
 
 **15.2. HOJAS TÉCNICAS**
 
