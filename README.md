@@ -384,7 +384,8 @@ En conclusión:
 
 **13. CRONOGRAMA**
 
-<br>
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img37.jpeg)
 
 
 **14. BIBLIOGRAFÍA**
@@ -406,12 +407,6 @@ En conclusión:
 
 **15. ANEXOS**
 
-<br>
-
-
-
-<br>
-
 **15.1. MANUAL DE USUARIO**
 
 <br>
@@ -420,13 +415,11 @@ En conclusión:
 
 **15.2. HOJAS TÉCNICAS**
 
-<br>
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img34.png)
 
-<br>
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img35.png)
 
-
-
-
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img36.png)
 
 
 
