@@ -140,11 +140,10 @@ Acarreo a lo largo de los cuatro bits
 
 **7. MAPA DE VARIABLES**
 
-<br>
 
-
-<br>
-
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img16.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img17.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img18.png)
 **8.EXPLICACIÓN DEL CÓDIGO FUENTE**
 
 <br>
