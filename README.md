@@ -213,7 +213,7 @@ El circuito integrado que contiene la compuerta OR, es el 74LS32, el cual posee 
 
 <br>
 
-EXPLICACIÓN:
+**EXPLICACIÓN:**
 
 <br>
 
@@ -240,10 +240,15 @@ En esta etapa se utiliza un multiplexor para proyectar la respuesta final, este 
 
 **• DECODIFICACIÓN DE BCD A 7 SEGMENTOS**
 
+Es importante notar que a partir del primer sumador implementado para esta sincronización si se necesita un nuevo dígito simplemente se aumenta más sumadores, los cuáles tendrán las mismas conexiones que el primero al igual que en los decodificadores.
 
 
 **• SALIDAS DE LOS DECODIFICADORES HACIA LOS DISPLAY**
 
+Una vez hecha la decodificación las salidas de cada integrado 4511 son direccionadas a los display para la proyección, teniendo en cuenta el dígito que representa dichas salidas.
+
+
+<br>
 
 **B. DIAGRAMA DE BLOQUES**
 
@@ -334,7 +339,7 @@ Cuando la salida de la operación realizada por los multiplexores sea mayor que 
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img28.png)
 
-Entonces partiendo de estas características generales del circuito  se empieza con la sincronización del circuito para poder proyectar los números en los display partiendo de las 3 señales principales a utilizarse similares en su función a un diagrama de tiempo.Simplemente haciendo las comparaciones restantes con los bits restantes es decir (solo 7 bits )sin llegar al bit menos significativo que será conectado directamente al decodificador.
+Entonces partiendo de estas características generales del circuito  se empieza con la sincronización del circuito para poder proyectar los números en los display partiendo de las 3 señales principales a utilizarse similares en su función a un diagrama de tiempo. Simplemente haciendo las comparaciones restantes con los bits restantes es decir (solo 7 bits )sin llegar al bit menos significativo que será conectado directamente al decodificador.
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img29.png)
 
@@ -342,7 +347,7 @@ Todo esto conectando en cascada tanto compuertas AND, OR, SUMADORES y DECODDIFIC
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img30.png)
 
-Es importante notar que a partir del primer sumador implimentado para esta sincronización si se necesita un nuevo dígito simplemente se aumenta más sumadores, los cuáles tendrán las mismas conexiones que el primero al igual que en los decodificadores.
+Es importante notar que a partir del primer sumador implementado para esta sincronización si se necesita un nuevo dígito simplemente se aumenta más sumadores, los cuáles tendrán las mismas conexiones que el primero al igual que en los decodificadores.
 
 
 **Visualización en los diplay de 7 segmentos de los números a sumar o restar y la respuesta**
