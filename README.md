@@ -63,54 +63,131 @@ Para el producto de unidad presente, se utilizó el entorno de simulación Tinke
 
 **ThinkerCad** 
 
+Es un programa o software gratuito y online creado para el desarrollo y modelado de objetos en 3D de una manera sencilla, ofrece también una posibilidad realmente interesante de montar, programar y simular circuitos incluso con Arduino al disponer de una interfaz de trabajo simple y atractiva. TinkerCAD ha sido creado por la empresa AutoDesk. 
 es un programa o software gratuito y online creado para el desarrollo y modelado de objetos en 3D de una manera sencilla, ofrece también una posibilidad realmente interesante de montar, programar y simular circuitos incluso con Arduino al disponer de una interfaz de trabajo simple y atractiva. TinkerCAD ha sido creado por la empresa AutoDesk. 
 Como ventajas se podría destacar que es sencillo de usar, tiene un aspecto atractivo y con unas pocas horas de uso se puede adquirir mucha destreza. Por otro lado, como desventaja se puede señalar que es necesario tener una cuenta de correo para darse de alta como usuario y que sólo posee una versión online. 
 Para esto se debe crear una cuenta de usuario y acceder seleccionando la opción “Circuits” para empezar a crear circuitos 
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img1.png)
+
 **Multiplexores**
 
 Son circuitos combinacionales que tienen varias entradas, una sola salida y varias líneas de selección. Su funcionamiento podría asemejarse a un conmutador de varias posiciones que simularían las entradas y el terminal común, la salida; la conmutación se realizaría por medio de la línea de selección, de tal modo que las señales presentes en las entradas aparecerán en la salida en el orden indicado por la línea de selección; es decir, un multiplexor permite el envío por una sola línea de los datos presentes en varias líneas.
-
-Se pueden hallar multiplexores de 2 a 1 líneas, de 4 a 1, de 8 a 1,etc.
-
-Multiplexor de 2 a 1 líneas: circuito integrado TTL 74157, contiene cuatro multiplexores con sus dos entradas de datos y su salida cada uno. Tiene una entrada de inhibición (STROBE G) activa a nivel bajo (0V) y una entrada de selección (SELECT), comunes a los cuatro multiplexores.
-
-Cuando STROBE está a nivel bajo, si la entrada SELECT está a nivel bajo, en la salida aparece el valor del dato A; y si la SELECT está a nivel alto aparece el dato B.
-
-Los tres componentes más importantes de un multiplexorson:
-
-1. Líneas de entrada de datos (al menos 2): estaslíneas contienen la información digital o señalesque se puede transmitir a la línea de salida.
-
-2. Entrada de selección de datos: esta entradaselecciona una única línea de entrada de datospara ser transmitida, dejando sin efecto las otraslíneas de entrada de datos.
-
-3. Línea de salida: contiene la señal de la línea deentrada de datos seleccionada por la entrada deselección de datos
+@@ -89,20 +87,14 @@ Los tres componentes más importantes de un multiplexorson:
 
 Las líneas de entrada de datos se determinan por 2 elevadoa a la (n) donde n es el número de entradas de selección de datos, es decir para dos entradas de selección de datosse puede tener = 4 líneas de entrada de datos.
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img2.jpg)
+
+**MULTIPLEXOR CI 74LS157** 
 **CI 74LS157** 
 
 Contiene cuatro multiplexores con dos entradas de datos cada uno.La entrada de selección de datos es la misma para todoslos multiplexores que conforman este integrado, donde las 4 primeras entradas se activan a nivel bajo (0) y las 4 restantes se activan a nivel alto (1).La activación de los multiplexores en general se da mediante un terminal denominado “ENABLE” el cual debe encontrarse activo a nivel bajo (0).
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img3.png)
+
+**SUMADOR CI 74LS83**
 **CI 74LS83**
 
 Es un sumador binario de 4-Bit donde las sumas (Σ) se proporcionan para cada bit y el acarreo resultante (C4) se obtiene a partir del cuarto bit. Estos agregadores cuentan con una mirada interna completa a través de los cuatro Bits  Cuenta con una implementación de ripple-carry. La lógica del sumador, incluido el carry, se implementa en su forma verdadera, lo que significa que el logrado sin necesidad de inversión lógica o de nivel.
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img5.jpg)
+
 Acarreo a lo largo de los cuatro bits
 
 -Los sistemas logran un rendimiento de anticipación parcial con la economía de la ondulación de llevar
-
--Tiempos de adición típicos
-
--Dos palabras de 8 bits 25 ns
-
--Dos palabras de 16 bits 45 ns
+@@ -115,93 +107,10 @@ Acarreo a lo largo de los cuatro bits
 
 -Disipación de potencia típica por sumador de 4 bits 95
 
-<br>
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img4.jpg)
+
+**COMPARADOR CI 74LS85**
+
+Son circuitos integrados combinacionales con uno o más pares de entradas que tienen como función comparar dos magnitudes binarias para determinar su relación.
+
+El comparador más básico, que determina si dos números son iguales, se consigue mediante una puerta XOR (or exclusiva), ya que su salida es 1 si los dos bits de entrada son diferentes y 0 si son iguales.
+
+Muchos comparadores poseen además de la salida de igualdad, dos salidas más que indican cual de los números colocados a la entrada es mayor (M) que el otro, o bien es menor (m) que el otro.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img6.png)
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img7.jpg)
+
+**DECODIFICADOR CI 74HC4511**
+
+Son circuitos combinacionales integrados que disponen de n entradas y un número de salidas igual o menor a 2n, actúan de modo que según cual sea la combinación de las variables de entrada se activa una única salida, permaneciendo el resto de ellas desactivada.
+
+Suelen disponer de una entrada adicional denominada de inhibición o strobe de modo que cuando esta entrada se encuentra activada, pone todas las salidas a 0.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img8.jpg)
 
 
+
+**COMPUERTA XOR – Compuerta O Exclusiva CI 74HC86**
+
+En la electrónica digital hay compuertas que no son comunes. Una de ellas es la compuerta XOR ó compuerta O exclusiva ó compuerta O excluyente. El diagrama inferior muestra el símbolo de una compuerta XOR (O exclusiva) de 2 entradas.
+Comprender el funcionamiento de esta compuerta digital es muy importante para después poder implementar lo que se llama un comparador digital.
+
+La puerta lógica OR-exclusiva, más conocida por su nombre en inglés XOR, realiza la función booleana A'B+AB'. Su símbolo es el más (+) inscrito en un círculo. En la figura de la derecha pueden observarse sus símbolos en electrónica.
+
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img15.png)
+
+El circuito integrado que contiene la compuerta XOR, es el 74LS86, el cual posee internamente 4 compuertas XOR, como se muestra en la figura, hay que tener en cuenta que el pin 7 debe estar conectado a Tierra (GND) y el pin 14 a Positivo (Vcc),
+
+**4HC86** 
+
+
+4 compuertas XOR  74HC86 de dos entradas. CMOS
+
+Una puerta lógica, o compuerta lógica, es un dispositivo electrónico con una función booleana. Suman, multiplican, niegan o afirman, incluyen o excluyen según sus propiedades lógicas. Se pueden aplicar a tecnología electrónica, eléctrica, mecánica, hidráulica y neumática. Son circuitos de conmutación integrados en un chip.
+
+Características:
+
+4 compuertas XOR de dos entradas c/u
+
+Tecnología: High Speed CMOS (HC)
+
+Funcionamiento lógico y organización de pines compatible con la familia LS-TTL
+
+Alta inmunidad al ruido
+
+Muy bajo consumo de potencia, similar a los C.I. CMOS estándar
+
+Alta velocidad
+
+Voltaje de alimentación: 2V a 6V
+
+Encapsulado: DIP 14 pines
+
+**COMPUERTA NAND CI 74HC00**
+
+La puerta lógica NO-Y, más conocida por su nombre en inglés NAND, realiza la operación de producto lógico negado.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img12.png)
+
+El circuito integrado que contiene la compuerta NAND, es el 74LS00, el cual posee internamente 4 compuertas NAND, como se muestra en la figura, hay que tener en cuenta que el pin 7 debe estar conectado a Tierra (GND) y el pin 14 a Positivo (Vcc),
+
+**COMPUERTA AND CI 74HC00**
+
+La puerta lógica Y, más conocida por su nombre en inglés AND (AND \equiv Y \equiv \and  ), realiza la función booleana de producto lógico. Su símbolo es un punto (·), aunque se suele omitir. Así, el producto lógico de las variables A y B se indica como AB, y se lee A y B o simplemente A por B.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img13.png)
+
+
+El circuito integrado que contiene la compuerta AND, es el 74LS08, el cual posee internamente 4 compuertas AND, como se muestra en la figura, hay que tener en cuenta que el pin 7 debe estar conectado a Tierra (GND) y el pin 14 a Positivo (Vcc).
+
+
+**COMPUERTA OR CI 74HC32**
+
+La puerta lógica O, más conocida por su nombre en inglés OR (OR \equiv O \equiv \or ), realiza la operación de suma lógica.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img14.png)
 <br>
+
+El circuito integrado que contiene la compuerta OR, es el 74LS32, el cual posee internamente 4 compuertas OR, como se muestra en la figura, hay que tener en cuenta que el pin 7 debe estar conectado a Tierra (GND) y el pin 14 a Positivo (Vcc),
+
 
 **5. DIAGRAMAS**
 
