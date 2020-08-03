@@ -133,7 +133,7 @@ Acarreo a lo largo de los cuatro bits
 
 <br>
 
-**6. DESARROLLO Y SIMLACIÓN**
+**6. DESARROLLO Y SIMULACIÓN**
 
 <br>
 
