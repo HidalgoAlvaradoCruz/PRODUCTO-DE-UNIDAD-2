@@ -4,7 +4,7 @@
 
 **1.PLANTEAMIENTO DEL PROBLEMA**
 
-Se desconoce el funcionamiento, diseño y conexión de un circuito para sumar y restar dos números de 8 bits implimentando el integrado 4511 y 7483 con un mecanismo para multiplexar las salidas de forma que permita seleccionar el resultado de la operación, que se visualice en un display implementado en Thinkercad, para lo cual se formularon las siguientes preguntas: 
+Se desconoce el funcionamiento, diseño y conexión de un circuito para sumar y restar dos números de 8 bits implimentando el integrado 4511 y 7483 con un mecanismo para multiplexar las salidas de forma que permita seleccionar el resultado de la operación, que se visualice en un display implementado en el Constructor Virtual y Simulador de Circuitos Digitales, para lo cual se formularon las siguientes preguntas: 
 
 •	¿Cómo se diseña un circuito para sumar y restar dos números de 8 bits?
 
@@ -51,7 +51,7 @@ Cortés Barrón, Reyes Barranca, L. M. Flores-Nava, A. Medina Santiago del Insti
 
 <br>
 
-Para el producto de unidad presente, se utilizó el entorno de simulación Tinkercad para implemnetar un circuito SUMADOR/RESTADOR 8 Bits diseñando un mecanismo para multiplexar las salidas a manera de un selector de operación (Rai, PK, Srivastava, S. y Johri, A, 2018, p.1), el ingreso de los 8 bits de datos se realiza manualmente mediante dips switch, el circuito básicamente tiene la configuración de una ALU (unidad lógica aritmética) (Syamala, Y. y Tilak, 2011, p.1). El sistema tiene la capacidad de proyectar un número decimal de salida en la pantalla del dispositivo android simulando la proyección de un display de 7 segmentos (Cortes Barron, Reyes Barranca, 2018, p.1).
+Para el producto de unidad presente, se utilizó el Constructor Virtual y Simulador de Circuitos Digitales para implemnetar un circuito SUMADOR/RESTADOR 8 Bits diseñando un mecanismo para multiplexar las salidas a manera de un selector de operación (Rai, PK, Srivastava, S. y Johri, A, 2018, p.1), el ingreso de los 8 bits de datos se realiza manualmente mediante dips switch, el circuito básicamente tiene la configuración de una ALU (unidad lógica aritmética) (Syamala, Y. y Tilak, 2011, p.1). El sistema tiene la capacidad de proyectar un número decimal de salida en la pantalla del dispositivo android simulando la proyección de un display de 7 segmentos (Cortes Barron, Reyes Barranca, 2018, p.1).
 
 <br>
 
@@ -61,14 +61,27 @@ Para el producto de unidad presente, se utilizó el entorno de simulación Tinke
 
 <br>
 
-**ThinkerCad** 
+**Constructor Virtual y Simulador de Circuitos Digitales** 
 
-Es un programa o software gratuito y online creado para el desarrollo y modelado de objetos en 3D de una manera sencilla, ofrece también una posibilidad realmente interesante de montar, programar y simular circuitos incluso con Arduino al disponer de una interfaz de trabajo simple y atractiva. TinkerCAD ha sido creado por la empresa AutoDesk. 
-es un programa o software gratuito y online creado para el desarrollo y modelado de objetos en 3D de una manera sencilla, ofrece también una posibilidad realmente interesante de montar, programar y simular circuitos incluso con Arduino al disponer de una interfaz de trabajo simple y atractiva. TinkerCAD ha sido creado por la empresa AutoDesk. 
-Como ventajas se podría destacar que es sencillo de usar, tiene un aspecto atractivo y con unas pocas horas de uso se puede adquirir mucha destreza. Por otro lado, como desventaja se puede señalar que es necesario tener una cuenta de correo para darse de alta como usuario y que sólo posee una versión online. 
-Para esto se debe crear una cuenta de usuario y acceder seleccionando la opción “Circuits” para empezar a crear circuitos 
+El programa cuenta con elementos que acompañan frecuentemente a los circuitos digitales:
+protoboards, interruptores, pulsadores, leds y visualizadores de siete segmentos. Es posible colocar
+hasta diez protoboards, cada uno con capacidad para ocho circuitos integrados. Además, el
+programa provee un temporizador (generador de señales periódicas) y una fuente de energía
+eléctrica (fuente DC de 5 V). La figura 1 muestra una vista de los tableros principales.
+Adicionalmente, el programa incluye escenarios virtuales sobre tableros que pueden hacer interfaz
+lógica con otros tableros y circuitos sobre los protoboards.
+
+Los tableros pueden ser insertados desde el menú Tableros. Cada tablero tiene unas marcas que
+sirven para trasladarlos (presionando con el botón izquierdo del ratón) o para eliminarlos (pulsando
+con el botón derecho del ratón). Al desplazar un tablero los cables mantienen las conexiones y sus
+formas cambian ligeramente. Antes de retirar un tablero debes retirar sus cables y componentes. Los
+tableros del programa pueden sobreponerse unos a otros. Es recomendable evitar las situaciones que
+no se reflejen en la realidad. 
+
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img1.png)
+
+<br>
 
 **Multiplexores**
 
@@ -475,6 +488,10 @@ En conclusión:
 **15. ANEXOS**
 
 **15.1. MANUAL DE USUARIO**
+
+<br>
+
+**1. **
 
 <br>
 
