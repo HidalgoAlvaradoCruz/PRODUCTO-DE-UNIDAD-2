@@ -213,6 +213,38 @@ El circuito integrado que contiene la compuerta OR, es el 74LS32, el cual posee 
 
 <br>
 
+EXPLICACIÓN:
+
+<br>
+
+El diagrama eléctrico muestra las respectivas conexiones realizadas por etapas, empezando por el ingreso de datos hasta la proyección final en 9 display de 7 segmentos de cátodo común.
+
+**•	INGRESO DE NÚMEROS**
+
+Es la primera etapa del circuito corresponde al ingreso de datos por medio de dos dips switch con 8 selectores, permiten al ususario ingresar un número binario de máximo 8 bits. Los números ingresados se pueden evidenciar tanto en las pantallas de los display como número decimal al igual que mediante focos LEDS como número binario.
+
+**• SUMADOR**
+
+En esta sección se realiza la suma de los dos números de 8 bits ingresados en la etapa anterior, para cumplir con este propósito se coloca dos sumadores  7483 conectados en cascada, para comprobar la funcionalidad de esta etapa se coloco una fila de 9 focos led que representan el resultado de la suma, el noveno led representa el acarreo.
+
+
+**• RESTADOR**
+
+La resta se divide en dos casos, para cada caso se utilizan negadores y sumadores en cascada, según el caso en el que recae se implementa un multiplezor para elegir la señal de salida, la elección de los casos se realiza mediante un comparador 7485, para comprobar la funcionalidad de esta etapa se coloco una fila de 9 focos led que representan el resultado de la resta, el noveno led representa el signo.
+
+
+**• SELECCION DE OPERACIÓN**
+
+En esta etapa se utiliza un multiplexor para proyectar la respuesta final, este multiplexor permite al usuario elegir que operación desea realizar suma "0" o resta "1", según la selección se proyecta el resultado.
+
+
+**• DECODIFICACIÓN DE BCD A 7 SEGMENTOS**
+
+
+
+**• SALIDAS DE LOS DECODIFICADORES HACIA LOS DISPLAY**
+
+
 **B. DIAGRAMA DE BLOQUES**
 
 <br>
