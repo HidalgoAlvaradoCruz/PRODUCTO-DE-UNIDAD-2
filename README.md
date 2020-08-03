@@ -80,14 +80,14 @@ Las líneas de entrada de datos se determinan por 2 elevadoa a la (n) donde n es
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img2.jpg)
 
 **MULTIPLEXOR CI 74LS157** 
-**CI 74LS157** 
+
 
 Contiene cuatro multiplexores con dos entradas de datos cada uno.La entrada de selección de datos es la misma para todoslos multiplexores que conforman este integrado, donde las 4 primeras entradas se activan a nivel bajo (0) y las 4 restantes se activan a nivel alto (1).La activación de los multiplexores en general se da mediante un terminal denominado “ENABLE” el cual debe encontrarse activo a nivel bajo (0).
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img3.png)
 
 **SUMADOR CI 74LS83**
-**CI 74LS83**
+
 
 Es un sumador binario de 4-Bit donde las sumas (Σ) se proporcionan para cada bit y el acarreo resultante (C4) se obtiene a partir del cuarto bit. Estos agregadores cuentan con una mirada interna completa a través de los cuatro Bits  Cuenta con una implementación de ripple-carry. La lógica del sumador, incluido el carry, se implementa en su forma verdadera, lo que significa que el logrado sin necesidad de inversión lógica o de nivel.
 
@@ -217,10 +217,9 @@ El circuito integrado que contiene la compuerta OR, es el 74LS32, el cual posee 
 
 **7. MAPA DE VARIABLES**
 
-
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img16.png)
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img17.png)
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img18.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img16.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img17.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img18.png)
 **8.EXPLICACIÓN DEL CÓDIGO FUENTE**
 
 <br>
