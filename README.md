@@ -197,7 +197,19 @@ El circuito integrado que contiene la compuerta OR, es el 74LS32, el cual posee 
 
 <br>
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/de1.jpg)
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/de2.jpg)
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/de3.jpg)
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/de4.jpg)
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/de5.jpg)
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/de6.jpg)
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/de7.jpg)
 
 <br>
 
@@ -216,10 +228,6 @@ El circuito integrado que contiene la compuerta OR, es el 74LS32, el cual posee 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img18.png)
 
 **7.EXPLICACIÓN DEL CIRCUITO**
-
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img31.jpeg)
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img32.jpeg)
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img33.jpeg)
 
 **Ingreso de números en BCD**
 
@@ -360,7 +368,6 @@ Implementación de 6 display de 7 segmentos cátodo común y focos led que vizua
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img41.png)
 
-**11. CONCLUSIONES**
 
 En conclusión:
 
