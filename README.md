@@ -344,11 +344,10 @@ El circuito creado en Tinkercad puede funcionar en cualquier servidor si se le d
 
 **10. APORTACIONES**
 
-<br>
+Implementación de 6 display de 7 segmentos cátodo común que vizualicen los dos números ingresados A y B a sumar o a restar en el circuito. 
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img27.jpeg)
 
-
-<br>
 
 **11. CONCLUSIONES**
 
