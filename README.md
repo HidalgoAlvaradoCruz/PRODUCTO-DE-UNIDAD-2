@@ -253,6 +253,18 @@ Para finalmente obtener el signo de la resta es necesario conectar los circuitos
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img24.png)
 
+Selección de la operación:
+
+Ya obtenido el signo como una salida ,junto con las salidas de los dos comparadores, iran conectadas a dos multiplexores en cascada 74157 circuito que  contiene cuatro multiplexores con sus dos entradas de datos y su salida cada uno esta es la razón por la que se usará dos de ellos ya que el circuito cuenta con 8 bits y como exiten dos entradas de datos completarian los 16 bits.
+
+La entrada de inhibición (STROBE G o A'/B) activa a nivel bajo (0V) es decir la salida que representa el signo y una entrada de selección (SELECT), comunes a los cuatro multiplexores que es la que va conectada en común con el segundo multiplexor.
+
+Algo importante a tomar en cuenta es que STROBE está a nivel bajo, si la entrada SELECT está a nivel bajo por lo tanto irán a tierra.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img25.png)
+
+
+
 
 **8. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
 
