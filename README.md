@@ -128,8 +128,7 @@ Acarreo a lo largo de los cuatro bits
 
 <br>
 
-
-
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/db1.jpg)
 
 <br>
 
