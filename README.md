@@ -357,8 +357,11 @@ En conclusión:
 
 **13. CRONOGRAMA**
 
-<br>
+<br> 
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img26.png)
+
+<br>
 
 **14. BIBLIOGRAFÍA**
 
@@ -378,10 +381,6 @@ En conclusión:
 <br>
 
 **15. ANEXOS**
-
-<br>
-
-
 
 <br>
 
