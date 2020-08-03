@@ -221,7 +221,7 @@ El circuito integrado que contiene la compuerta OR, es el 74LS32, el cual posee 
 
 Para el ingreso de números en BCD se tiene 2 dip switch de 8 interruptores cada uno, en la parte superior, el primer dip switch representa el número A y el segundo dip switch el número denotado por B.
 
-Hay que tomar en cuenta que los dip switch tomandoles en cuenta de abajo hacia arriba, [abajo- número menos significativo] y [arriba-número más significativo]. Es necesario comprender lo anteriormente explicado para el correcto ingreso de números BCD. Al momento de realizar las conexiones de los dip switch se conectó a + Vcc (5 V) los dígitos activados en 0 y a tierra los dígitos activados en 1
+Hay que tomar en cuenta que los dip switch tomandoles en cuenta de abajo hacia arriba, [abajo- bits menos significativo] y [arriba-bits más significativo]. Es necesario comprender lo anteriormente explicado para el correcto ingreso de números BCD. Al momento de realizar las conexiones de los dip switch se conectó a + Vcc (5 V) los dígitos activados en 0 y a tierra los dígitos activados en 1
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img19.png)
 
@@ -229,7 +229,7 @@ Para sumar o restar números en BCD por medio de un dip switch extra donde [Up-R
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img20.png)
 
-Se conecta las  8 salidas de los dip switch de los números menos significativos tanto del número A como del B a un sumador 7483  con el acarreo de entrada a tierra y este sumador en cascada a otro sumador 7483 conectado al acarreo de entrada las 8 salidas de los dip switch de los números más significativos tanto del número A como del B.
+Se conecta las  8 salidas de los dip switch de los bits menos significativos tanto del número A como del B a un sumador 7483  con el acarreo de entrada a tierra y este sumador en cascada a otro sumador 7483 conectado al acarreo de entrada las 8 salidas de los dip switch de los bits más significativos tanto del número A como del B.
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img21.png)
 
@@ -244,6 +244,15 @@ A>B
 B>A
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img23.png)
+
+Para el caso de la resta hay que tomar en cuenta que va a exitir un signo menos[-] en el caso A<B para esto hay que utilizar dos integrados 7485 que se encargan de comparar tanto el número A como el B .
+
+Hay que tomar en cuenta que el primer integrado compara los bits menos significativos tanto del número A como del número B y el segundo integrado compara los bits mas significativos tando del número A como del B.
+
+Para finalmente obtener el signo de la resta es necesario conectar los circuitos comparadores a la función [(A<B).(A=C)]+(A.1<B.1) ya que sis sus entradas estan en un nivel alto el resultado será un nivel bajo es decir el signo menos.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img24.png)
+
 
 **8. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
 
