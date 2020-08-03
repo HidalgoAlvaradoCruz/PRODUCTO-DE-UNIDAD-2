@@ -315,7 +315,7 @@ El circuito creado en Tinkercad puede funcionar en cualquier servidor si se le d
 
 <br>
 
-**10. APORTACIONES**
+**9. APORTACIONES**
 
 <br>
 
@@ -323,7 +323,7 @@ El circuito creado en Tinkercad puede funcionar en cualquier servidor si se le d
 
 <br>
 
-**11. CONCLUSIONES**
+**10. CONCLUSIONES**
 
 <br>
 En conclusión:
@@ -342,7 +342,7 @@ En conclusión:
 
 <br>
 
-**12. RECOMENDACIONES**
+**11. RECOMENDACIONES**
 
 <br>
 
@@ -355,7 +355,7 @@ En conclusión:
 
 <br>
 
-**13. CRONOGRAMA**
+**12. CRONOGRAMA**
 
 <br> 
 
@@ -363,7 +363,7 @@ En conclusión:
 
 <br>
 
-**14. BIBLIOGRAFÍA**
+**13. BIBLIOGRAFÍA**
 
 <br>
 
@@ -380,17 +380,17 @@ En conclusión:
 
 <br>
 
-**15. ANEXOS**
+**14. ANEXOS**
 
 <br>
 
-**15.1. MANUAL DE USUARIO**
+**14.1. MANUAL DE USUARIO**
 
 <br>
 
 
 
-**15.2. HOJAS TÉCNICAS**
+**14.2. HOJAS TÉCNICAS**
 
 <br>
 
