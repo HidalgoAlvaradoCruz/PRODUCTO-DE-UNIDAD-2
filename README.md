@@ -209,24 +209,37 @@ El circuito integrado que contiene la compuerta OR, es el 74LS32, el cual posee 
 
 <br>
 
-**6. DESARROLLO Y SIMULACIÓN**
-
-<br>
-
-<br>
-
-**7. MAPA DE VARIABLES**
+**6. MAPA DE VARIABLES**
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img16.png)
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img17.png)
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img18.png)
-**8.EXPLICACIÓN DEL CÓDIGO FUENTE**
 
-<br>
+**7.EXPLICACIÓN DEL CIRCUITO**
 
-<br>
+**Ingreso de números en BCD**
 
-**9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
+Para el ingreso de números en BCD se tiene 2 dip switch de 8 interruptores cada uno, en la parte superior, el primer dip switch representa el número A y el segundo dip switch el número denotado por B.
+
+Hay que tomar en cuenta que los dip switch tomandoles en cuenta de abajo hacia arriba, [abajo- número menos significativo] y [arriba-número más significativo]. Es necesario comprender lo anteriormente explicado para el correcto ingreso de números BCD. Al momento de realizar las conexiones de los dip switch se conectó a + Vcc (5 V) los dígitos activados en 0 y a tierra los dígitos activados en 1
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img19.png)
+
+Para sumar o restar números en BCD por medio de un dip switch extra donde [Up-Resta] y [Low-Suma].
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img20.png)
+
+Se conecta las  8 salidas de los dip switch de los números menos significativos tanto del número A como del B a un sumador 7483  con el acarreo de entrada a tierra y este sumador en cascada a otro sumador 7483 conectado al acarreo de entrada las 8 salidas de los dip switch de los números más significativos tanto del número A como del B.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img21.png)
+
+Para realizar la resta 
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img22.png)
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img23.png)
+
+**8. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
 
 <br>
 
