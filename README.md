@@ -233,7 +233,9 @@ Se conecta las  8 salidas de los dip switch de los bits menos significativos tan
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img21.png)
 
-Para realizar la resta es necesario negar los 8 bits de salida tanto del número A como del número B y conectar a los sumadores conectados en cascada, algo a tomar en cuenta el acarreo de entrada del primer sumador va a conectado a VCC que representa implícitamente un mas uno.
+**Complemento A1**
+
+Para realizar la resta es necesario negar los 8 bits de salida tanto del número A como del número B y conectar a los sumadores conectados en cascada, algo a tomar en cuenta el acarreo de entrada del primer sumador va a conectado a VCC que representa implícitamente más uno.
 
 Exiten dos casos:
 
@@ -245,6 +247,8 @@ B>A
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img23.png)
 
+**Signo de la resta caso A<B **
+
 Para el caso de la resta hay que tomar en cuenta que va a exitir un signo menos[-] en el caso A<B para esto hay que utilizar dos integrados 7485 que se encargan de comparar tanto el número A como el B .
 
 Hay que tomar en cuenta que el primer integrado compara los bits menos significativos tanto del número A como del número B y el segundo integrado compara los bits mas significativos tando del número A como del B.
@@ -253,17 +257,29 @@ Para finalmente obtener el signo de la resta es necesario conectar los circuitos
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img24.png)
 
-Selección de la operación:
+**Selección del caso de la resta:**
 
-Ya obtenido el signo como una salida ,junto con las salidas de los dos comparadores, iran conectadas a dos multiplexores en cascada 74157 circuito que  contiene cuatro multiplexores con sus dos entradas de datos y su salida cada uno esta es la razón por la que se usará dos de ellos ya que el circuito cuenta con 8 bits y como exiten dos entradas de datos completarian los 16 bits.
+Ya obtenido el signo como una salida ,junto con las salidas de los dos comparadores, iran conectadas a dos multiplexores en cascada 74157 circuito que  contiene cuatro multiplexores con sus dos entradas de datos y su salida cada uno, esta es la razón por la que se usará dos de ellos ya que el circuito cuenta con 8 bits y como exiten dos entradas de datos completarian los 16 bits.
+Se debe tomar en cuenta que en el primer integrado se conectan los bits menos significativos tanto del número A como del B y en el segundo integrado se conectan los bits más significativos tanto del número A como del B.
 
-La entrada de inhibición (STROBE G o A'/B) activa a nivel bajo (0V) es decir la salida que representa el signo y una entrada de selección (SELECT), comunes a los cuatro multiplexores que es la que va conectada en común con el segundo multiplexor.
+La entrada de inhibición (STROBE G o A'/B) activa a nivel bajo (0V) es decir la salida que representa el signo y la entrada de selección (SELECT), comunes a los cuatro multiplexores,  es la que va conectada en común con el segundo multiplexor.
 
 Algo importante a tomar en cuenta es que STROBE está a nivel bajo, si la entrada SELECT está a nivel bajo por lo tanto irán a tierra.
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img25.png)
 
+**Selección de la operación suma o resta:**
 
+Para la selección de la operación se utiliza 3 multiplexores en cascada.El primer y segundo integrado van conectados las salidas de los dos primeros sumadores (sin negar) junto con la salida del switch que indica la operación a realizarse ya sea la suma o la resta.
+
+Es importante saber que el primer integrado va conectado a los bits menos significativos tanto del A como del B y el segundo integrado a los bits más significativos tanto del número A como del B.
+
+La entrada de inhibición (STROBE G o A'/B) activa a nivel bajo (0V) es decir la salida que representa el signo y la entrada de selección (SELECT), comunes a los cuatro multiplexores, que es la que va conectada en común con el segundo y tercer multiplexor, ya que que STROBE está a nivel bajo, si la entrada SELECT está a nivel bajo, por lo tanto irán a tierra.
+
+El tercer integrado indica tanto el signo de la resta o el acarreo de la suma por lo que está conectado al acarreo de la salida del segundo sumador (sin negar) y a la salida del comparador que indica el signo de la resta en el caso A<B junto con la salida del switch que indica la operación a realizarse ya sea la suma o la resta.
+
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img26.png)
 
 
 **8. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
