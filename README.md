@@ -233,9 +233,15 @@ Se conecta las  8 salidas de los dip switch de los números menos significativos
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img21.png)
 
-Para realizar la resta 
+Para realizar la resta es necesario negar los 8 bits de salida tanto del número A como del número B y conectar a los sumadores conectados en cascada, algo a tomar en cuenta el acarreo de entrada del primer sumador va a conectado a VCC que representa implícitamente un mas uno.
+
+Exiten dos casos:
+
+A>B 
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img22.png)
+
+B>A
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img23.png)
 
