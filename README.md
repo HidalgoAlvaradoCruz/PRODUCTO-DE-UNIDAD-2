@@ -413,6 +413,8 @@ Implementación de 6 display de 7 segmentos cátodo común y focos led que vizua
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img41.png)
 
 
+**11. CONCLUSIONES**
+
 En conclusión:
 
 <br>
