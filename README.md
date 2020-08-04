@@ -321,7 +321,7 @@ B>A
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img23.png)
 
-**Signo de la resta caso A<B **
+**Signo de la resta caso A<B**
 
 Para el caso de la resta hay que tomar en cuenta que va a exitir un signo menos[-] en el caso A<B para esto hay que utilizar dos integrados 7485 que se encargan de comparar tanto el número A como el B .
 
