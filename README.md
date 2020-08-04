@@ -520,7 +520,7 @@ En conclusión:
 
 <br>
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/m7.jpg)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/m8.jpg)
 
 <br>
 
@@ -530,7 +530,7 @@ En conclusión:
 
 <br>
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/m6.jpg)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/m7.jpg)
 
 <br>
 
