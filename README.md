@@ -22,7 +22,7 @@ Diseñar una calculadora básica para sumar y restar dos números de 8 bits.
 
 **Objetivos específicos**
 
-•	Comprender la estructura básica de funcionamiento del software de simulación Thinkercad.
+•	Comprender la estructura básica de funcionamiento del software de simulación Constructor Virtual y Simulador de Circuitos Digitales.
 
 •	Entender el funcionamiento del mecanismo para multiplexar las salidas del circuito .
 
@@ -79,7 +79,7 @@ tableros del programa pueden sobreponerse unos a otros. Es recomendable evitar l
 no se reflejen en la realidad. 
 
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img1.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/s1.jpg)
 
 <br>
 
@@ -389,33 +389,13 @@ El display que indica el signo en la resta  y el acarreo en la suma  todas sus e
 
 <br>
 
-Para utilizar el entorno de simulación Tinkercad es necesario tener una cuenta de Google o una cuenta institucional en este caso la cuenta de Mi ESPE, para la realizar la verificación y creación de la cuenta en Tinkercad.
-
-Es esencial tener una conexión estable a internet, debido a que la creación y simulación del circuito solo lo realiza en línea. 
-Los sistemas operativos de los computadores en los cuales funciona Tinkercad son: 
-
-•	Macintosh (con procesador Intel): Mac OS X 10.5, 10.6
+El Constructor Virtual y Simulador de Circuitos Digitales es un programa propio de Windows de libre acceso que puede ser ejecutado en cualquier versión a partir de Windows XP: 
 
 •	Windows: Windows XP, Windows Vista, Windows 7 y versiones superiores
 
-•	GNU / Linux: Ubuntu 8 +, 5 + Debian
-
 <br>
 
-Tener un computador con todas las actualizaciones necesarias, como también nuestro navegador deberá tener las siguientes especificaciones: 
-
-•	Mozilla Firefox 3.6 o superior
-
-•	Apple Safari 5.0 o superior
-
-•	Google Chrome 4.0 o superior
-
-•	Microsoft Internet Explorer 7 o superior
-
-<br>
-
-El circuito creado en Tinkercad puede funcionar en cualquier servidor si se le da el atributo de público y se comparte el enlace que se genera, dicho enlace será la única forma en la que se pueda acceder y editar el diseño del circuito.
-
+El simulador de Construcción de Circuitos Digitales con Escenarios Virtuales y Tutoriales Interactivos es un programa para construir circuitos digitales sobre un módulo digital virtual al ser un programa básico no necesita ningún tipo de configuración externa, el ejececutable se puede descargar del repositorio en la parte de instaladores.
 <br>
 
 **10. APORTACIONES**
@@ -442,7 +422,7 @@ En conclusión:
 •	A partir del circuito SUMADOR se implementa el RESTADOR teóricamente se puede aplicar el complemento 1 o complemento 2 para efectuar la resta, en la práctica esto no ocurre así, a pesar que el método más fácil para hallar la resta es aplicar el complemento 1, surge la necesidad de utilizar integrados comparadores para identificar cada caso de la resta y seleccionar el resultado adecuado.
 
 
-• Para implementar el sistema que permita elegir entre una opración u otra se debe multiplexar las salidas pero en vista que el simulador Tinkercad no cuenta con integrados multiplexores, este proceso se lo debe realizar diseñando un circuito que cumpla con esta función a partir de colocar puertas AND y XOR, pero el detalle más importante de dicho proceso está en que todo este sistema tiene que ir conectado a un dip switch o selector y el voltaje alto (H) o bajo (L), que llegue al dip será el que rija la operación "L" o "0" para la suma y "H" o "1" para la resta.
+• Para implementar el sistema que permita elegir entre una opración u otra se debe multiplexar las salidas, dicho proceso está en que todo este sistema tiene que ir conectado a un dip switch o selector y el voltaje alto (H) o bajo (L), que llegue al dip será el que rija la operación "L" o "0" para la suma y "H" o "1" para la resta.
 
 
 • Para analizar, diseñar e implementar el circuito lo más factible es dividirlo por etapas la mismas que van a describir cada parte importante del circuito como, el ingreso de los datos, la etapa del Sumador, la etapa del Restador , la del selector o Multiplexación y finalmente la etapa del decodificador BCD 4511 a 7 segmentos, en esta etapa para mostrar el resultado en un display se lo realiza según el valor máximo resultante de realizar la suma de los dos número de 8 bits en este caso el valor máximo que se puede obtener es 510 en número decimal con un acarreo, para representar esta cifra en un display de cátodo común se utilizan decodificadores 4511 conectados en cascada y para la proyección 4 display, uno para cada dígito del resultado y el cuarto display para el signo de la resta. A pesar que el circuito cuenta con diferentes etapas de análisis, el desarrollo del mismo tiene como principio fundamental la conexión de dispositivos en CASCADA.
@@ -453,7 +433,7 @@ En conclusión:
 
 <br>
 
-• Es recomendable al momento de realizar la implementación del circuito en Tinkercad conectar a tierra las todas las salidas de los integrados que no se ocupen, en algunos integrados esto no influye pero existen ciertos casos que al no realizar esta conexión a tierra afecta a los valores lógicos recibidos a las entradas.   
+• Es recomendable al momento de realizar la implementación del circuito en el Constructor Virtual y Simulador de Circuitos Digitales conectar a tierra las todas las salidas de los integrados que no se ocupen, en algunos integrados esto no influye pero existen ciertos casos que al no realizar esta conexión a tierra afecta a los valores lógicos recibidos a las entradas.   
 
 •	Antes de proyectar el resultado de la resta se deben analizar los tres casos en los que puede recaer, lo mejor es para controlar y seleccionar el caso es utilizar un comparador seguido de un multiplexor para elegir la respuesta.
 
