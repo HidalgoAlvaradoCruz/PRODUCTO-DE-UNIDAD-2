@@ -465,6 +465,15 @@ En conclusión:
 
 [4] Cortes-Barron, EA, Reyes-Barranca, MA, Flores-Nava, LM y Medina-Santiago, A. (2012). Unidad de lógica aritmética (ALU) de 4 bits basada en transistores Neuron MOS. 2012 Novena Conferencia Internacional sobre Ingeniería Eléctrica, Ciencias de la Computación y Control Automático (CCE). doi: 10.1109 / iceee.2012.6421136 
 
+
+[5]Marin, J. (20-12-20). Contados Ascendente. BlogSpot. http://jmaarin.blogspot.com/2017/12/contador-ascendente-con-ci-7493.html
+
+[6]Monroy, M. (2018, 26 diciembre). Temporizador. Medium.com. https://medium.com/@m.monroyc22/temporizador-555-243abcb933a5
+
+[7]Gonzales, R. (2019, 7 abril). Contador Binario. Electrónica Digital. https://personales.unican.es/manzanom/Planantiguo/EDigitalI/CONTG5.pdf
+
+[8]Fuente, F. (2017, 24 enero). Decodificador bcd a 7 segmentos. Wilaeba Electronica. https://wilaebaelectronica.blogspot.com/2017/01/decodificador-bcd-a-7-segmentos.html
+
 <br>
 
 **15. ANEXOS**
