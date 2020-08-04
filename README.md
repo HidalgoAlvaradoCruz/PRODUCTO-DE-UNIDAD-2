@@ -471,7 +471,11 @@ En conclusión:
 
 <br>
 
-**1. **
+**1.** Para ejecutar el Constructor Virtual y Simulador de Circuitos Digitales, dirigirse al apartado de instaladores del Github, una vez en el directorio se deben descargar los siguientes archivos: 
+
+- Constructor Virtual de Circuitos.exe (ejecutable)
+
+- Sumador-Restador.txt  (Implementación del proyecto)
 
 <br>
 
@@ -484,21 +488,47 @@ En conclusión:
 
 <br>
 
+**2.** Una vez descargados los archivos, el primer paso es ejecutar el archivo ConstructorVirtualDeCircuitos.exe que vendría a ser el aplicativo.
+
+<br>
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/m3.jpg)
 
 <br>
 
+**3.** Al momento que se ejecuta el aplicativo aparece la siguiente ventana, el siguiente paso es darle clic al icono de abrir y seleccionamos la ubicación del archivo Sumador-Restador.txt que descargamos en la parte inicial, clic en Abrir.
+
+<br>
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/m4.jpg)
 
 <br>
 
+**4.** Se puede observar que aparece en pantalla el circuito correspondiente al proyecto realizado, para ejecutar la simulación simplemente accionamos el interruptor para que se active el paso de energía. 
+
+<br>
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/m5.jpg)
 
 <br>
 
+**5.** Para ingresar los números que se desea sumar o restar accionamos los interruptores según el código binario de 8 bits, para seleccionar la operación se realiza una selección simple:
+
+"0" APAGADO ..... SUMA
+
+"1" ENCENDIDO ..... RESTA 
+
+<br>
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/m.jpg)
+
+<br>
+
+
+
+**6.** Segun los números en código binario y la operación que ingresemos en los selectores se puede observar a la salida el resultado de la operación.
+
+<br>
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/m6.jpg)
 
